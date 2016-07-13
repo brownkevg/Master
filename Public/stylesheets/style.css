@@ -1,0 +1,157 @@
+*{
+	box-sizing:border-box;
+}
+.row{
+	clear:both;
+	width:100%;
+}
+.hexagon {
+	float:left;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+    }
+.hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(/images/water.jpg);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2:hover {
+    
+}
+.hexagon2 {
+    width: 200px;
+    height: 400px;
+    margin: -220px 0 0 5px;
+    }
+.water{
+    background-image: url(/images/water.jpg)
+}
+ .water:hover{
+    background:
+        linear-gradient(
+            rgba(174,234,255,0.25),
+            rgba(174,234,255,0.25)
+            ),
+        url(/images/water.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+ }
+.wood{
+    background-image: url(/images/wood.jpg);
+ }
+ .wood:hover{
+    background:
+        linear-gradient(
+            rgba(128,128,128,0.25),
+            rgba(128,128,128,0.25)
+            ),
+        url(/images/wood.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+ }
+.sheep{
+ 	background-image: url(/images/sheep.jpg);
+ }
+  .sheep:hover{
+    background:
+        linear-gradient(
+            rgba(128,128,128,0.25),
+            rgba(128,128,128,0.25)
+            ),
+        url(/images/sheep.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+ }
+.brick{
+    background-image: url(/images/brick.jpg);
+ }
+ .brick:hover{
+    background:
+        linear-gradient(
+            rgba(128,128,128,0.25),
+            rgba(128,128,128,0.25)
+            ),
+        url(/images/brick.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+ }
+.ore{
+    background-image: url(/images/ore.jpg);
+ }
+  .ore:hover{
+    background:
+        linear-gradient(
+            rgba(128,128,128,0.25),
+            rgba(128,128,128,0.25)
+            ),
+        url(/images/ore.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+ }
+.wheat{
+    background-image: url(/images/wheat.jpg);
+ }
+  .wheat:hover{
+    background:
+        linear-gradient(
+            rgba(128,128,128,0.25),
+            rgba(128,128,128,0.25)
+            ),
+        url(/images/wheat.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+ }
+.desert{
+    background-image: url(/images/desert.jpg);
+ }
+  .desert:hover{
+    background:
+        linear-gradient(
+            rgba(128,128,128,0.25),
+            rgba(128,128,128,0.25)
+            ),
+        url(/images/desert.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+ }
+.filler{
+	float:left;
+	width:102.5px;
+	height:400px;
+	margin-top:-220px;
+}
+#board{
+	margin-top:200px;
+	width:1500px;
+}
+.number{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+
+    background-color: white;
+}
