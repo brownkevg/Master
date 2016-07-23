@@ -5,6 +5,9 @@
 	clear:both;
 	width:100%;
 }
+.road{
+    border-left:3px solid red;
+}
 .hexagon {
 	float:left;
     overflow: hidden;
@@ -145,13 +148,36 @@
 	margin-top:-220px;
 }
 #board{
+    position:relative;
 	margin-top:200px;
 	width:1500px;
 }
 .number{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:1;
     border-radius: 50%;
-    width:100px;
-    height:100px;
+    width:85px;
+    height:85px;
+    box-shadow: 5px 5px 5px black;
 
-    background-color: white;
+    background-color: rgba(255, 228, 196,.75);
+}
+.number p{
+    position:absolute;
+    margin:0;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.odds{
+    position: absolute;
+    margin:0;
+    top:75%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
