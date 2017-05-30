@@ -181,3 +181,53 @@
     left:50%;
     transform:translate(-50%,-50%);
 }
+.port{
+    position: absolute;
+    width:90px;
+    height:75px;
+    font-size:15px;
+    box-shadow: 5px 5px 5px black;
+    background-color:rgba(300, 300, 300, 0.7);
+}
+.right-bottom{
+    top:54%;
+    left:50%;
+    transform:rotate(-30deg);
+    transform-origin: bottom left;
+    text-align: center;
+}
+.right-center{
+    top:43%;
+    left:90%;
+    transform:rotate(-90deg);
+    transform-origin: bottom left;
+    text-align: center;
+}
+.right-top{
+    top:20%;
+    left:91%;
+    transform:rotate(-150deg);
+    transform-origin: bottom left;
+    text-align: center;
+}
+.left-top{
+    top:8%;
+    left:50%;
+    transform:rotate(-210deg);
+    transform-origin: bottom left;
+    text-align: center;
+}
+.left-center{
+    top:20%;
+    left:10%;
+    transform:rotate(-270deg);
+    transform-origin: bottom left;
+    text-align: center;
+}
+.left-bottom{
+    top:43%;
+    left:9%;
+    transform:rotate(-330deg);
+    transform-origin: bottom left;
+    text-align: center;
+}
