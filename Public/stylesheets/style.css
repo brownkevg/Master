@@ -5,9 +5,6 @@
 	clear:both;
 	width:100%;
 }
-.road{
-    border-left:3px solid red;
-}
 .hexagon {
 	float:left;
     overflow: hidden;
@@ -230,4 +227,72 @@
     transform:rotate(-330deg);
     transform-origin: bottom left;
     text-align: center;
+}
+.road-verticle{
+    float:left;
+    width:5px;
+    height:116px;
+    margin-top: -5.2%;
+    margin-bottom: -5.2%;
+    background-color:red;
+}
+.road-top-left{
+    float:left;
+    width:5px;
+    height:116px;
+    margin-top: -11.2%;
+    margin-bottom: -5.2%;
+    background-color:red;
+
+    margin-left:-3.5%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+.road-top-right{
+    float:left;
+    width:5px;
+    height:116px;
+    margin-top: -11.2%;
+    margin-bottom: -5.2%;
+    background-color:red;
+
+    margin-left: 3.45%;
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+.road-bottom-left{
+    float:left;
+    width:5px;
+    height:116px;
+    margin-top: .7%;
+    margin-bottom: -5.2%;
+    background-color:red;
+
+    margin-left: -3.35%;
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+.road-bottom-right{
+    float:left;
+    width:5px;
+    height:116px;
+    margin-top: .8%;
+    margin-bottom: -9.2%;
+    background-color:red;
+
+    margin-left: 3.5%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
 }
